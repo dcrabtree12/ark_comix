@@ -1,0 +1,360 @@
+#header {
+  background-color: #FFCC00;
+
+}
+
+#page-wrap {
+  width: 800px;
+  margin:auto;
+}
+
+body {
+  min-height: 100%;
+  background-size: cover;
+  background-color: #D9E8D9;
+  background-repeat:no-repeat;
+  background: linear-gradient( #BFE6BF to top, #D9E8D9) fixed;
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  margin-left: -400px;
+  margin-top: 0px;
+  min-height: 100%;
+/* url("../CSS/comic.jpg");
+   url("../CSS/b.jpg");
+      url("../CSS/dot.jpg");
+      url("../CSS/star.jpg");
+      url("../CSS/green.jpg");
+*/
+}
+
+  .error {
+    color: #FF0000;
+  }
+
+/* Home page */
+
+  /* Searchbar */
+   input.search {
+    position: relative;
+    left: 565px;
+    top: -10px;
+    border: 2px solid #e8e8e8;
+    border-radius: 4px;
+    font-size: 16px;
+    height: 6px;
+    background-color: white;
+    padding: 12px;
+  }
+
+  #welcome {
+    background-color: #005285;
+    color: #ffffff;
+    text-shadow: 0 0 3px #000000, 0 0 5px #006100;
+    background-image: url("../images/design/batman.jpg");
+    opacity: 0.7;
+    filter: alpha(opacity=50);
+    height: 280px;
+    width: 575px;
+    text-align: center;
+    line-height: 1.9;
+  }
+
+  #sidebar {
+    background-color: #ffffff;
+    border: 2px solid #BFE6BF;
+    width: 165px;
+    height: 525px;
+    position: absolute;
+    right: 30px;
+    top: 203px;
+  }
+
+  #box {
+
+  }
+
+  #box2 {
+    position: absolute;
+    border: 2px solid #BFE6BF;
+    top: 504px;
+    left: 300px;
+  }
+
+  .boxes {
+    background-color: #ffffff;
+    height: 223px;
+    width: 280px;
+  }
+
+  .indent {
+    text-indent: 10px;
+  }
+
+  label {
+    float: left;
+    text-indent: 40px;
+  }
+  .noindent {
+    text-indent: -300px;
+    font-size: 20px;
+  }
+
+  .header {
+    padding-top: 22px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+/* Sign-up Form */
+
+  form.layout {
+    position:relative;
+    left: 135px;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    background-color: #ffffff;
+    padding: 15px;
+    width: 500px;
+    text-align: center;
+  }
+
+  input.sign {
+    border: 1px solid #000099;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    padding: 5px;
+  }
+
+/* Navigation Bar */
+  .center {
+      margin: auto;
+      width: 100%;
+      padding: 10px;
+  }
+
+  .button {
+    background-color: #02470a;
+    border-left: 1px solid #006600;
+    border-right: 1px solid #006600;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 4px 2px 3px #003300;
+    font-family: monospace;
+    font-size: 20px;
+    font-stretch: expanded;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 4px 2px;
+    height: 3px;
+  }
+
+  .dropbtn {
+    background-color:  #004FBA;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid white;
+    border-radius: 4px 2px;
+    cursor: text;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content { /*Hover changes*/
+    display: none;
+    position: absolute;
+    font-family: monospace;
+    background-color: #00459C;
+    min-width: 160px;
+    border-radius: 5px 10px 2px;
+    overflow: auto;
+    box-shadow: 0px 4px 10px 0px
+    rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown a:hover {
+    background-color: #007b0f;
+    color: white;
+    font-weight: bold;
+    text-shadow: 4px 2px 3px #595959;
+  }
+
+  #nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+    background-color: #02470a; /* Make the same color as the .button background color.*/
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 40px;
+    width: 97%;
+    padding-left: 12px;
+}
+
+li {
+    float: left;
+}
+
+/* Navigation list properties */
+li a, .dropbtn {
+  background-color: #007b0f; /* Make the same as .button background color.*/
+  color: white; //text in backdrop
+  text-decoration: none;
+  display: block;
+}
+
+a, .other {
+  background-color: ;
+  color: #800000;
+  font-weight: bolder;
+}
+
+a:hover, .other {
+  color: #007000;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #333}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* New Releases */
+ #releases {
+   position: absolute;
+   border: 2px solid #BFE6BF;
+   background-color: #ffffff;
+   height: 100px;
+   width: 170px;
+   top: 210px;
+   line-height: 2.7;
+   text-align: center;
+   padding-right: 15px;
+ }
+
+ #additional {
+   border: 2px solid #BFE6BF;
+   background-color: #ffffff;
+   height: 300px;
+   width: 170px;
+   line-height: 2.7;
+   text-align: center;
+ }
+
+ .options {
+   float: right;
+ }
+
+ #storeItems {
+   width: 800px;
+   margin:auto;
+ }
+
+ /* Store */
+ .heading {
+   font-size: 20px;
+ }
+
+ .middleHeading {
+   position: absolute;
+   top: 180px;
+   text-indent: 350px;
+ }
+
+ .other {
+   list-style-type: none;
+ }
+
+/* Categories */
+.floating-box {
+    display: inline-block;
+    width: 180px;
+    height: auto;
+    margin: 10px;
+    border: 3px solid #73AD21;
+    float: left;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+footer {
+			  height:19px;
+			  width: 809px;
+			  text-align: center;
+		    font-size: .67em;
+			  font-style: italic;
+			  border-top: 1px solid black;
+}

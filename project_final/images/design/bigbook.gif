@@ -1,0 +1,23 @@
+<?xml version="1.0"?><svg width="533.3333333333333" height="533.3333333333333" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title>green book</title>
+ <defs>
+  <linearGradient id="linearGradient650">
+   <stop id="stop651" offset="0" stop-color="#000"/>
+   <stop id="stop652" offset="1" stop-color="#fff"/>
+  </linearGradient>
+  <linearGradient gradientUnits="objectBoundingBox" id="linearGradient653" spreadMethod="repeat" x1="0.508001" x2="0.508" xlink:href="#linearGradient650" y1="1.076923" y2="1.038462"/>
+  <linearGradient gradientUnits="objectBoundingBox" id="linearGradient654" spreadMethod="repeat" x1="1.222227" x2="1.166668" xlink:href="#linearGradient650" y1="0.460938" y2="0.460938"/>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g id="g845">
+   <path d="m126.582001,38.765701l299.050995,1.582298l2.373993,386.868004l-303.006989,1.582001l1.582001,-390.032303l0,0z" id="path645" stroke-linejoin="round" stroke-width="10" stroke="#000000" fill-rule="evenodd" fill="#007f00"/>
+   <path d="m128.955994,38.765701c-10.284996,-1.582302 -58.544594,4.746899 -58.544594,37.183502c8.702499,31.645798 63.291603,-10.284706 64.082603,-20.569603c0.791,-10.284801 -5.53801,-17.404999 -5.53801,-16.613899z" id="path646" stroke-linejoin="round" stroke-width="10" stroke="#000000" fill-rule="evenodd" fill="#12242b"/>
+   <path d="m71.202599,64.873299c-1.609001,4.746803 -1.5084,379.746696 -0.905098,390.0317c0.603401,10.285004 0.5028,10.285004 0.5028,10.285004l0.402298,-390.823006l0,-9.493698l0,0z" id="path647" stroke-linejoin="round" stroke-width="10" stroke="#000000" fill-rule="evenodd" fill="#122466"/>
+   <path d="m122.3843,35.721401l285.052711,4.76881c0,0 -15.21283,8.583778 -30.427673,14.306419c-11.209961,7.630058 -25.622192,22.89032 -25.622192,21.936493l-278.646645,-2.861275c0,0 4.00354,-14.306538 20.017731,-24.797859c17.615524,-12.39888 28.8255,-12.39888 29.626068,-13.352589z" id="path648" stroke-linejoin="round" stroke-width="10" stroke="#000000" fill-rule="evenodd" fill="url(#linearGradient653)"/>
+   <path d="m408.227997,45.885899l0,380.599087c-0.790985,0.806 -15.822998,0 -27.690002,8.064026c-11.075989,4.837982 -22.942993,24.996979 -26.898987,30.641998l-0.791016,-389.470009c0,0 21.361023,-19.352402 27.690002,-20.158802c6.32901,-0.806297 28.481995,-9.676197 27.690002,-9.6763l0,0z" id="path649" stroke-linejoin="round" stroke-width="9.90521" stroke="#000000" fill-rule="evenodd" fill="url(#linearGradient654)"/>
+   <path d="m71.202499,75.158096l299.050491,1.582306l2.374023,386.867599l-303.006714,1.582001l1.582199,-390.031906l0,0z" id="path644" stroke-linejoin="round" stroke-width="10" stroke="#000000" fill-rule="evenodd" fill="#007f3f"/>
+   <path d="m167.721497,458.860809c0,0 184.921722,0.614563 194.415405,-5.714539c9.493713,-6.329102 0.204895,-253.779175 0.204895,-253.779175c0,0 31.645599,264.240509 -194.6203,259.493713z" id="path767" stroke-linejoin="round" stroke-width="10" fill-rule="evenodd" fill-opacity="0.498"/>
+  </g>
+ </g>
+</svg>
